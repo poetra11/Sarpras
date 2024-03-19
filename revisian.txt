@@ -1,0 +1,10 @@
+4 organik 
+2 os
+
+barang keluar & input foto....
+
+status ( Delet ) 
+prioritas ( Delet )
+pembelian ( Delet )
+
+

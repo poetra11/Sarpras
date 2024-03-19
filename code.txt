@@ -1,0 +1,10 @@
+select `sarpras`.`tb_stock`.`id_stock` AS `id`,`sarpras`.`tb_request`.`tgl_ajuan` AS `stock_bln`,`sarpras`.`tb_request`.`nm_items` AS `nm_items`,`sarpras`.`tb_request`.`kategori` AS `kategori`,`sarpras`.`tb_stock`.`total_stock` AS `total_stock`,`sarpras`.`tb_stock`.`tgl` AS `tgl_kondisi`,`sarpras`.`tb_stock`.`jml` AS `jml`,`sarpras`.`tb_stock`.`kondisi` AS `kondisi`,`sarpras`.`tb_stock`.`ket` AS `ket`,`sarpras`.`tb_stock`.`sts_kondisi` AS `sts_kondisi`,`sarpras`.`tb_request`.`tgl_acc` AS `tgl_acc` from (`sarpras`.`tb_stock` join `sarpras`.`tb_request`) where (`sarpras`.`tb_request`.`id_items` = `sarpras`.`tb_stock`.`id_stock`)
+
+
+
+
+
+
+kondisi_1 = var 25
+jumlah_1 = int
+ket_1 = text
